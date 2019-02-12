@@ -1,4 +1,4 @@
-FROM rust:1.27.1
+FROM rust:1.32.0
 
 RUN apt-get update -qy \
     && apt-get install -qy curl ca-certificates --no-install-recommends \ 
